@@ -1,0 +1,33 @@
+﻿
+
+初始化一个Git仓库，使用git init命令。
+
+添加文件到Git仓库，分两步：
+第一步，使用命令git add <file>，注意，可反复多次使用，添加多个文件；
+第二步，使用命令git commit，完成。
+git commit -m “this the description of what the change is”
+
+
+git log  # 查看修改历史
+
+git log --pretty=oneline
+
+git reset --hard HEAD^  # 用HEAD表示当前版本，HEAD^ 退回到上一个版本， HEAD~100, 往前倒 100 个版本。
+
+
+git add -A  提交所有变化
+git add -u  提交被修改(modified)和被删除(deleted)文件，不包括新文件(new)
+git add .  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
+
+
+
+git clone git@github.com:BetterJiang/git-journey.git
+
+[
+https://github.com/BetterJiang/git-journey
+
+git@github.com:BetterJiang/github_note.git
+
+]
+
+

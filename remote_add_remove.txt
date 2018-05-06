@@ -1,10 +1,54 @@
+﻿
+添加远程库
+
+现在的情景是，你已经在本地创建了一个Git仓库后，又想在GitHub创建一个Git仓库，并且让这两个仓库进行远程同步，这样，GitHub上的仓库既可以作为备份，又可以让其他人通过该仓库来协作，真是一举多得。
+首先，登陆GitHub，然后，在右上角找到“Create a new repo”按钮，创建一个新的仓库。
+
+
+在Repository name填入learngit，其他保持默认设置，点击“Create repository”按钮，这样就成功地在GitHub创建了一个名为learngit新的Git仓库。
+
+目前，在GitHub上的这个learngit仓库还是空的，GitHub告诉我们，可以从这个仓库克隆出新的仓库，也可以把一个已有的*本地*仓库与之关联，然后，把本地仓库的内容推送到GitHub仓库。
+
+现在，我们根据GitHub的提示，在本地的learngit仓库下运行命令：
+git remote add origin git@github.com:michaelliao/learngit.git
+
+
+请千万注意，把上面的michaelliao替换成你自己的GitHub账户名，否则，你在本地关联的就是我的远程库，关联没有问题，但是你以后推送是推不上去的，因为你的SSH Key公钥不在我的账户列表中。
+添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
+
+git remote add origin git@github.com:BetterJiang/github_note.git
+
+下一步，就可以把本地库的所有内容推送到远程库上：
+git push -u origin master
+
+把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
+由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。
+
+推送成功后，可以立刻在GitHub页面中看到远程库的内容已经和本地一模一样.
+（不是第一次推送的话，可以用如下的命令）
+git push origin master
+
 
 1.在本地目录下关联远程repository ：
 git remote add origin git@github.com:git_username/repository_name.git
+
+git remote add origin git@github.com:git_username/learngit.git
+
+
+2.把本地库的所有内容推送到远程库上
+git push -u origin master
+git push origin master
+
 
 2.取消本地目录下关联的远程库：
 git remote remove origin
 
 查看本地与远程库的关联
 git remote
+
+
+要关联一个远程库，使用命令git remote add origin git@server-name:path/repo-name.git；
+关联后，使用命令git push -u origin master第一次推送master分支的所有内容；
+此后，每次本地提交后，只要有必要，就可以使用命令git push origin master推送最新修改；
+
 

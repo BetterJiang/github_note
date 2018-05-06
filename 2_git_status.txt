@@ -1,4 +1,4 @@
-
+﻿
 运行git status命令看看结果
 
 git status 
@@ -15,6 +15,8 @@ git status
 在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。
 如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key：
 $ ssh-keygen -t rsa -C "youremail@example.com"
+
+$ ssh-keygen -t rsa -C "jianghaiyan.cn@gmail.com"
 
 你需要把邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可，由于这个Key也不是用于军事目的，所以也无需设置密码。
 
