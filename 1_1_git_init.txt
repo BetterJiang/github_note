@@ -1,4 +1,4 @@
-
+﻿
 Git is a distributed version control system.
 Git is free software.
 Git has a mutable index called stage.
@@ -7,7 +7,6 @@ This is the first time I use git to control the different versions.
 Wish I have a good beginging!
 
 Must chosse the codestyle as utf-8.
-
 
 
 第一步，创建一个版本库非常简单，首先，选择一个合适的地方，创建一个空目录：
@@ -103,13 +102,11 @@ $ git add file2.txt file3.txt
 $ git commit -m "add 3 files."
 
 
-小结
-现在总结一下，两点内容：
+小结：
+两点内容
+1. 初始化一个Git仓库，使用git init命令。
 
-初始化一个Git仓库，使用git init命令。
-
-添加文件到Git仓库，分两步：
-
+2. 添加文件到Git仓库，分两步：
 第一步，使用命令git add <file>，注意，可反复多次使用，添加多个文件；
 第二步，使用命令git commit，完成。
 

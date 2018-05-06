@@ -1,5 +1,6 @@
 
 $ git push origin master
+
 git push origin master
 To github.com:BetterJiang/hello-world.git
  ! [rejected]        master -> master (non-fast-forward)
@@ -11,6 +12,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 
 
 $ git pull
+
 git pull
 warning: no common commits
 remote: Counting objects: 7, done.

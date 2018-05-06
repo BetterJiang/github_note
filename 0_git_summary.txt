@@ -20,7 +20,25 @@ git add -u  提交被修改(modified)和被删除(deleted)文件，不包括新�
 git add .  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 
 
+1.在本地目录下关联远程repository ：
+git remote add origin git@github.com:git_username/repository_name.git
 
+git remote add origin git@github.com:git_username/learngit.git
+
+
+2.把本地库的所有内容推送到远程库上
+git push -u origin master
+git push origin master
+
+
+3.取消本地目录下关联的远程库：
+git remote remove origin
+
+4. 查看本地与远程库的关联
+git remote
+
+
+5. git clone
 git clone git@github.com:BetterJiang/git-journey.git
 
 [

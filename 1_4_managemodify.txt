@@ -1,4 +1,4 @@
-git管理的是修改，而非文件
+﻿git管理的是修改，而非文件
 
 完全掌握了暂存区的概念后。下面，我们要讨论的就是，
 为什么Git比其他版本控制系统设计得优秀，因为Git跟踪并管理的是修改，而非文件。
@@ -13,9 +13,11 @@ Git管理的是修改，当用git add命令后，
 
 
 撤销（删除）修改
+
 文件已修改，未add到暂存区:
 git checkout -- file可还原
-文件已修改，并add到暂存区未commit：
+
+文件已修改，add到暂存区未commit：
 git reset HEAD file
 git checkout -- file可还原
 
@@ -25,13 +27,14 @@ git reset --hard HEAD^
 git reset --hard the_id_number
 
 
-
 当你要删除文件的时候，可以采用命令：rm test.txt
+
 这个时候（也就是说这个时候只执行了rm test.txt）有两种情况
 第一种情况:的确要把test.txt删掉，那么可以执行
     git rm test.txt
     git commit -m "remove test.txt"
     然后文件就被删掉了
+
 第二种情况:删错文件了，不应该删test.txt，注意这时只执行了rm test.txt，还没有git commit提交，
 所以可以执行git checkout test.txt 将文件恢复。
 并不是说执行完git commit -m "remove test.txt"后还能用checkout恢复，commit之后版本库里的文件也没了，自然没办法用checkout恢复，而是要用其他的办法
