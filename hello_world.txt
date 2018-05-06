@@ -1,0 +1,31 @@
+
+git@github.com:BetterJiang/hello-world.git
+
+写点什么好呢？随便写点吧！版本回退 + 版本回退
+
+How Many People Have Walked on the Moon? And say hello to the world?
+
+Ask someone if they know the names of the astronauts who have walked on the Moon, 
+and most people would be able to list Neil Armstrong, and maybe even Buzz Aldrin. 
+
+
+But can you name the rest of the Apollo astronauts who made it down to the lunar surface? How many people have walked on the Moon?
+
+In total twelve people have walked on the Moon. 
+Besides Neil Armstrong and Buzz Aldrin – who were the first two astronauts to leave their bootprints on the Moon — there were also Pete Conrad, 
+Alan Bean, Alan Shepard, Edgar Mitchell, David Scott, James Irwin, John Young, Charles Duke, Eugene Cernan, and Harrison Schmitt.
+
+Interestingly, out of the dozen people who walked on the Moon, no one ever did it more than once. Here’s some additional information about 
+the men who walked on the Moon and their missions: 
+
+Apollo 11 – 2 people On July 21, 1969, Neil Armstrong made history by becoming the first person to set foot on the Moon. 
+He was soon followed by Buzz Aldrin. In a nail-biting landing, Armstrong had to manually fly the Lunar Module past the intended landing spot,
+which he could see was filled with boulders. He landed safely in Tranquility Base with Aldrin keeping an eye on the altitude and velocity, 
+along with a dangerously low fuel tank. In total, Neil and Buzz were on the lunar surface 
+(both inside their Eagle lunar module and walking on the Moon) for only 21 hours, 36 minutes and 21 seconds and were outside walking in the Sea of Tranquility for 
+just 2 hours, 31 minutes and 40 seconds. 
+
+During their EVA, they collected rocks, planted the US flag, and deployed a seismograph and an experiment called 
+the Lunar Ranging Retroreflector – a reflective device that measures the distance between the Earth and the Moon using lasers from Earth — which is still in use today.
+
+
