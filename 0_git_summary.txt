@@ -1,4 +1,8 @@
-﻿
+
+
+git status
+运行git status命令看看结果：
+
 
 初始化一个Git仓库，使用git init命令。
 
