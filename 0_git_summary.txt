@@ -33,6 +33,13 @@ initialize this repository with a README: no
 click Create repository
 
 
+0-2. 
+cd d:/GitNote/MLiA_inuse
+git init
+git remote add origin git@github.com:BetterJiang/MLiA_inuse.git
+git push -u origin master
+
+
 1.在本地目录下关联远程repository ：
 git remote add origin git@github.com:git_username/repository_name.git
 
