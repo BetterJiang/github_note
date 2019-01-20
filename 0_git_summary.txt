@@ -24,10 +24,19 @@ git add -u  提交被修改(modified)和被删除(deleted)文件，不包括新�
 git add .  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
 
 
+0. 在网页github 先 create 一个同名的文件夹，
+https://github.com 
+Create a new repository
+Repository name: write down the name in the blank
+Description (optional): nothing
+initialize this repository with a README: no
+click Create repository
+
+
 1.在本地目录下关联远程repository ：
 git remote add origin git@github.com:git_username/repository_name.git
 
-git remote add origin git@github.com:git_username/learngit.git
+git remote add origin git@github.com:BetterJiang/LeetCodeQuestions.git
 
 
 2.把本地库的所有内容推送到远程库上
